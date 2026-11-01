@@ -1,14 +1,14 @@
-# Lead Management Automation using n8n
+# 🚀 Lead Management Automation using n8n
 
 An automated Lead Management System built with **Lovable, n8n, Google Sheets, and Gmail**.
 
 This project automates lead collection, data storage, personalized email notifications, and email delivery status tracking.
 
-## Project Overview
+## 📌 Project Overview
 
 The system allows potential clients to submit their information through a website contact form. Once submitted, n8n automatically processes the lead, stores the information in Google Sheets, and sends a personalized confirmation email.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Lovable** – Website and lead submission form
 - **n8n** – Workflow automation
@@ -16,7 +16,7 @@ The system allows potential clients to submit their information through a websit
 - **Gmail** – Automated email notifications
 - **Webhook** – Website-to-n8n integration
 
-## Key Features
+## ✨ Key Features
 
 - Lead submission through a website form
 - Automatic lead data collection using n8n Webhook
@@ -27,7 +27,7 @@ The system allows potential clients to submit their information through a websit
 - Failed email status: `Failed`
 - Email sending timestamp and error tracking
 
-## Workflow Process
+## ⚙️ Workflow Process
 
 1. A visitor submits the lead form on the website.
 2. The n8n Webhook receives the submitted information.
@@ -36,7 +36,7 @@ The system allows potential clients to submit their information through a websit
 5. If successful, the Google Sheets status updates to `Sent`.
 6. If unsuccessful, the status updates to `Failed` and records the error.
 
-## Lead Form Fields
+## 📝 Lead Form Fields
 
 - Name
 - Email
@@ -44,7 +44,7 @@ The system allows potential clients to submit their information through a websit
 - Interested Service
 - Message
 
-## Google Sheets Data
+## 📊 Google Sheets Data
 
 The system tracks:
 
@@ -59,13 +59,40 @@ The system tracks:
 - Email Sent Time
 - Email Error
 
-## Project Links
+## 📸 Project Screenshots
 
-**Live Website:** https://screenshot-to-scenery-335.lovable.app/
+### Website Homepage
+![Website Homepage](screenshots/Home%20page.png)
 
-**GitHub Repository:** https://github.com/apughosh123/lead-management-automation-n8n
+### About Me
+![About Me](screenshots/About%20me.png)
 
-## Workflow Import Instructions
+### Services
+![Services](screenshots/Services.png)
+
+### Contact Form
+![Contact Form](screenshots/Contact%20and%20form.png)
+
+### n8n Automation Workflow
+![n8n Workflow](screenshots/Featured.png)
+
+### Google Sheets Lead Records
+![Google Sheets](screenshots/lead%20management%20google%20sheets.png)
+
+### Email Automation Results
+![Email Success](screenshots/lead%20management%20success.png)
+
+![Email Error Handling](screenshots/lead%20management%20error.png)
+
+## 🔗 Project Links
+
+**Live Website:**  
+https://screenshot-to-scenery-335.lovable.app/
+
+**GitHub Repository:**  
+https://github.com/apughosh123/lead-management-automation-n8n
+
+## 📥 Workflow Import Instructions
 
 1. Download the workflow JSON file from this repository.
 2. Open your n8n instance.
@@ -75,14 +102,14 @@ The system tracks:
 6. Update the Google Sheets document ID and connect the Webhook to your website.
 7. Test the workflow.
 
-## Author
+## 👨‍💻 Author
 
 **Apu Ghosh**
 
 AI Automation | n8n Workflows | AI Agents | API Integrations
 
-- GitHub: https://github.com/apughosh123
-- LinkedIn: https://www.linkedin.com/in/apu-ghosh-automation/
+- **GitHub:** https://github.com/apughosh123
+- **LinkedIn:** https://www.linkedin.com/in/apu-ghosh-automation/
 
 ---
 
